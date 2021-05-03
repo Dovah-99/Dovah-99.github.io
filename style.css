@@ -1,0 +1,536 @@
+@charset "utf-8";
+@import url("webfonts/TheHistoriaDemo/stylesheet.css");
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.heading1{
+    font-size: 60px;
+    text-decoration: underline;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: 600;
+	padding: 5px;
+	text-align: center;
+}
+
+
+.para1{
+    font-size: 26px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    float: left;
+	padding: 25px;
+}
+#Contact-body{
+    text-align: center;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+}
+
+.contact-form{
+    margin-left: 400px;
+    margin-top: -26px;
+}
+
+.contact-title{
+	margin-top: 100px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
+}
+
+.contact-title h4{
+	font-size: 35px;
+	line-height: 10px;
+}
+
+.contact-title h5{
+	font-size: 15px;
+	line-height: 70px;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(Images/Web%20background.svg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+.Area1{
+    background-color: #16162D;
+    font-size: 40px;
+    margin-top: -60px;
+}
+
+footer{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  height: 60px;
+  background-color: #16162D;
+}
+
+.footer-text{
+    font-size: 35px;
+    padding-left: 20px;
+    float: left;
+    word-spacing: 10px;
+    color: #bf009a;
+    margin-top: 7px;
+}
+
+.footer-content-right {
+    padding-right: 30px;
+    float: right;
+}
+
+.footer-image{
+    margin-top: 6px;;
+}
+
+.icon-style {
+  height:40px;
+  margin-left:20px;
+  margin-top:5px;
+}
+
+.icon-style:hover {
+  background-color:#ffcb0a;
+  padding:5px;
+}
+
+.Area1 .Area1-text h1 {
+    font-family: TheHistoriaDemo;
+    font-size: 7em;
+    font-weight: 200;
+    text-align: center;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 175px;
+}
+
+.Area1 .Area1-text p{
+    font-family: "TitilliumWeb Black";
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+.Area2 {
+	justify-content: space-around;
+	padding: 80px;
+}
+
+.rounded-circle{
+    border-radius: 150px;
+}
+
+.img-fluid{
+    width: 100%;
+    max-width: 625px;
+    height: auto;
+    margin-left: 750px;
+    margin-top: -557px;
+}
+
+.ProfilePic-container{
+    display: flex;
+    align-items: center;
+    width: 510px;
+    margin-left: 800px;
+    margin-top: -370px;
+}
+
+.Work-Box{
+    width: 575px;
+    height: 450px;
+    box-shadow: 5px,5px,20px grey;
+    background-color: white;
+    float: right;
+    border-radius: 0;
+    margin-top: -520px;
+}
+
+.Work-Box2{
+    width: 700px;
+    height: 350px;
+    box-shadow: 5px,5px,20px grey;
+    background-color: white;
+    border-radius: 0;
+    margin-left: 600px;
+	margin-top: -480px;
+}
+	
+#carouselExampleIndicators1{
+	margin-top:25px;
+}
+
+.Work-Box_Container{
+    justify-content: space-around;
+    width: 20px;
+}
+
+.subtext{
+	font-size: 15px;
+	font-weight: 300;
+}
+
+.Project-img{
+	margin-top: 25px;
+	width: 250px;
+	border-radius: 125px;
+}
+.Info {
+    background-color: #FFFFFF;
+    width: 680px;
+    height: 518px;
+    border-radius: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.Info2{
+    background-color: #FFFFFF;
+    width: 450px;
+    height: 456px;
+    border-radius: 50px;
+    margin-top: 95px;
+    font-size: 31px;
+    margin-left: -20px;
+}
+
+.WorkPic{
+	width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-top: -100px;
+}
+.Music {
+    margin-left: 27px;
+}
+
+form{
+	margin: 50px;
+	transition: ease-in-out;
+}
+
+.form-control{
+    width: 600px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: #FFFFFF;
+	background-color:transparent;
+}
+
+input{
+	height: 45px;
+}
+
+form .submit{
+	background: #16162D;
+	border-color: transparent;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+form .submit:hover{
+	background-color: #ffcb0a;
+	cursor: pointer;
+}
+
+.navbar{
+	background-color: #16162D !important;
+}
+
+.navbar .navbar-nav li a{
+    color: #bf009a !important;
+    font-size: 35px;
+    width: 180px;
+    height: 100px;
+	margin-top: 20px;
+}
+
+.navbar .navbar-nav li a:hover{
+	color: #ffcb0a !important;
+}
+
+.navbar .nav-item .dropdown-menu{
+    background-color: #16162D;
+    margin-top: -17px;
+	width: 260px;
+}
+.navbar .nav-item .dropdown-menu .dropdown-item:hover{
+	background-color: black;
+	color: #FFCB0A;
+	width: 100%;
+}
+.Logo{
+    margin-top: -1px;
+    width: 255px;
+    height: 120px;
+}
+
+.navbar-toggler{
+	background-color: #FFFFFF;
+}
+
+#Info2{
+    background-color: #FFFFFF;
+    width: 470px;
+    height: 390px;
+    border-radius: 50px;
+    margin-top: 10px;
+	margin-bottom: 100px;
+}
+
+@media (max-width: 500px){
+.Area1 .Area1-text h1 {
+    font-family: TheHistoriaDemo;
+    font-size: 3.5em;
+    font-weight: 200;
+    text-align: center;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 125px;
+}
+.Area1 .Area1-text p {
+    font-family: "TitilliumWeb Black";
+    font-size: 2em;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.Logo {
+    width: 255px;
+    height: 120px;
+    margin-left: -115px;
+}
+.Area1 .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    margin-top: -8px;
+}
+.footer-text {
+    font-size: 30px;
+    padding-left: 20px;
+    float: left;
+    word-spacing: 10px;
+    color: #bf009a;
+    margin-top: 7px;
+}
+.footer-content-right {
+    padding-right: 30px;
+    float: right;
+	margin-top:15px;
+}
+	About.html{
+		overflow-x: hidden;
+	}
+.Info {
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 1050px;
+    border-radius: 50px;
+    margin-top: 0px;
+	margin-left: -50px;
+    text-align: center;
+}
+.rounded-circle{
+    border-radius: 150px;
+}
+
+.img-fluid{
+    width: 100%;
+    max-width: 625px;
+    height: auto;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+.heading1 {
+    font-size: 10vw;
+    text-decoration: underline;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-weight: 600;
+    padding: 5px;
+}
+.para1 {
+    font-size: 25px;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: left;
+    float: left;
+    padding: 25px;
+}
+.Music {
+    margin-left: -45px;
+}
+.Info2 {
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 490px;
+    border-radius: 50px;
+    margin-top: 95px;
+    font-size: 31px;
+    margin-left: -70px;
+}
+.Work-Box {
+    width: 350px;
+    height: 300px;
+    box-shadow: 5px,5px,20px grey;
+    background-color: white;
+    border-radius: 0;
+	margin-top: 20px;
+	margin-bottom: 80px;
+	margin-right: -75px;
+	}
+	
+	Work2.html{
+		overflow-x: hidden;
+	}
+	
+#Info2 {
+    background-color: #FFFFFF;
+    width: 350px;
+    height: 420px;
+    border-radius: 50px;
+	margin-left: -75px;
+}
+
+.Work-Box2{
+    width: 350px;
+    height: 350px;
+    box-shadow: 5px,5px,20px grey;
+    background-color: white;
+    border-radius: 0;
+    margin-left: 0px;
+	margin-top: -10px;
+}
+	
+	#carouselExampleIndicators1{
+		margin-top: 400px;
+	}
+	
+	.carousel-inner{
+		height: 200px;
+		width: 200px;
+	}
+	
+	.d-block{
+		height: 200px;
+		width: 200px;
+	}
+	
+	.contact-form{
+		margin-left: -40px;
+	}
+	
+	.form-control{
+		width: 300px;
+	}
+	
+	form .submit{
+	background: #16162D;
+	border-color: transparent;
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	height: 50px;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+	form .submit:hover{
+	background-color: #ffcb0a;
+	cursor: pointer;
+}
+
+}
+
+@media (min-width: 500px) and (max-width: 990px){
+.Area1 .Area1-text h1 {
+    font-family: TheHistoriaDemo;
+    font-size: 5em;
+    font-weight: 200;
+    text-align: center;
+    background: linear-gradient(to top, #ffe838, #fd57bf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 125px;
+}
+.Area1 .Area1-text p {
+    font-family: "TitilliumWeb Black";
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 45px;
+	margin-bottom: 50px;
+}
+.Info {
+    background-color: #FFFFFF;
+    width: 700px;
+    height: 500px;
+    border-radius: 50px;
+    margin-top: 0px;
+	margin-left: -50px;
+    text-align: center;
+}
+
+.img-fluid{
+    width: 100%;
+    max-width: 625px;
+    height: auto;
+	margin-left: 20px;
+	margin-top: -10px;
+}
+	.Info2 {
+    background-color: #FFFFFF;
+    width: 390px;
+    height: 495px;
+    border-radius: 50px;
+    margin-top: 95px;
+    font-size: 30px;
+    margin-left: -70px;
+}
+	.Work-Box {
+    width: 350px;
+    height: 480px;
+    box-shadow: 5px,5px,20px grey;
+    background-color: white;
+    border-radius: 0;
+	margin-right: -70px;
+	margin-top: -600px;
+	}
+	.Work-Box2{
+    width: 650px;
+    height: 450px;
+    box-shadow: 5px,5px,20px grey;
+    background-color: white;
+    border-radius: 0;
+    margin-left: -120px;
+	margin-top: -10px;
+}
+	#carouselExampleIndicators1{
+		margin-top: 400px;
+	}
+	#Info2{
+		margin-left: 100px;
+	}
+	
+	.contact-form{
+		margin-left: 30px;
+	}
+	
+	.form-control{
+		width: 600px;
+	}
+}
